@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install
+npm install maketype
 ```
 
 #### make type
