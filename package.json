@@ -1,0 +1,24 @@
+{
+  "name": "maketype",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Welcome to  👋</h1> <p>MAKE TYPE</p>",
+  "main": "index.js",
+  "module": "main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive ./__test__/*.test.js"
+  },
+  "keywords": [
+    "type",
+    "js",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
