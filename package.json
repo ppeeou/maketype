@@ -16,7 +16,14 @@
     "js",
     "javascript"
   ],
-  "author": "",
+  "author": {
+    "name": "xodltus",
+    "email": "xodltus@naver.com",
+    "url": "https://github.com/ppeeou"
+  },
+  "repository": {
+    "type": "git"
+  },
   "license": "MIT",
   "dependencies": {
     "esm": "^3.2.25"
