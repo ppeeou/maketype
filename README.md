@@ -19,9 +19,21 @@ import { isString, isArray } from 'maketype'
 ```
 
 ### support
-<p>
-number, string, object, array, promise, 
-</p>
+
+isNumber, toNumber,
+
+isString, toString,
+
+isObject, 
+
+isArray, toArray,
+
+isPromise, toPromise,
+
+isFunction,
+
+isGenerator, isIterator, toIterator
+
 
 ## Author
 
