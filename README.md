@@ -26,7 +26,7 @@ isString, toString,
 
 isObject, 
 
-isArray, toArray,
+isArray, toArray, isArrayLike
 
 isPromise, toPromise,
 
