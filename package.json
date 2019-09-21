@@ -1,6 +1,6 @@
 {
   "name": "maketype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<h1 align=\"center\">Welcome to  👋</h1> <p>MAKE TYPE</p>",
   "main": "index.js",
   "module": "main.js",
@@ -22,7 +22,8 @@
     "url": "https://github.com/ppeeou"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:ppeeou/maketype.git"
   },
   "license": "MIT",
   "dependencies": {
