@@ -1,5 +1,5 @@
-const assert = require("assert");
-const makeType = require("../");
+import assert from "assert";
+import * as makeType from "../";
 
 describe("Number", function () {
   it("isNumber", function (done) {

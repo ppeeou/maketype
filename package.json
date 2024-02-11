@@ -1,13 +1,12 @@
 {
   "name": "maketype",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "<h1 align=\"center\">Welcome to  👋</h1> <p>MAKE TYPE</p>",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "src": "src"
   },
   "scripts": {
     "build": "npm-run-all cleanup compile",
@@ -20,7 +19,7 @@
     "compile:check": "tsc --project tsconfig.json",
     "generate:extensions": "ts-node build/generateExtensions.ts",
     "generate:exports": "ts-node build/generateExports.ts",
-    "test": "mocha --recursive ./__test__/*.test.ts"
+    "test": "ts-mocha --recursive ./__test__/*.test.ts"
   },
   "keywords": [
     "type",
@@ -47,6 +46,8 @@
     "@types/node": "^20.11.17",
     "mocha": "^10.3.0",
     "npm-run-all": "^4.1.5",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "browserslist": {

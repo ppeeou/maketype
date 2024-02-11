@@ -1,1 +1,16 @@
-export * from "./lib";
+export {
+  isNumber,
+  toNumber,
+  isArrayLike,
+  isString,
+  toString,
+  isFunction,
+  isArray,
+  toArray,
+  isObject,
+  isGenerator,
+  isIterator,
+  toIterator,
+  isPromise,
+  toPromise,
+} from "./lib/index";
